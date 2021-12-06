@@ -22,7 +22,7 @@ function jogar(){
   }
 }
 function testaVitoria(){
-  venceu = (tabuleiro[0].innerHTML == tabuleiro[1].innerHTML && tabuleiro[1].innerHTML == tabuleiro[2].innerHTML)||(tabuleiro[3].innerHTML == tabuleiro[4].innerHTML && tabuleiro[4].innerHTML == tabuleiro[5].innerHTML)||(tabuleiro[6].innerHTML == tabuleiro[7].innerHTML && tabuleiro[7].innerHTML == tabuleiro[8].innerHTML)||(tabuleiro[0].innerHTML == tabuleiro[3].innerHTML && tabuleiro[3].innerHTML == tabuleiro[6].innerHTML)||(tabuleiro[1].innerHTML == tabuleiro[4].innerHTML && tabuleiro[4].innerHTML == tabuleiro[7].innerHTML)||(tabuleiro[2].innerHTML == tabuleiro[5].innerHTML && tabuleiro[5].innerHTML == tabuleiro[8].innerHTML)||(tabuleiro[0].innerHTML == tabuleiro[4].innerHTML && tabuleiro[4].innerHTML == tabuleiro[8].innerHTML)||(tabuleiro[6].innerHTML == tabuleiro[4].innerHTML && tabuleiro[4].innerHTML == tabuleiro[2].innerHTML)
+  venceu = (tabuleiro[0].innerHTML ==tabuleiro[1].innerHTML == tabuleiro[2].innerHTML)||(tabuleiro[3].innerHTML == tabuleiro[4].innerHTML == tabuleiro[5].innerHTML)||(tabuleiro[6].innerHTML == tabuleiro[7].innerHTML == tabuleiro[8].innerHTML)||(tabuleiro[0].innerHTML == tabuleiro[3].innerHTML == tabuleiro[6].innerHTML)||(tabuleiro[1].innerHTML == tabuleiro[4].innerHTML == tabuleiro[7].innerHTML)||(tabuleiro[2].innerHTML == tabuleiro[5].innerHTML == tabuleiro[8].innerHTML)||(tabuleiro[0].innerHTML == tabuleiro[4].innerHTML == tabuleiro[8].innerHTML)||(tabuleiro[6].innerHTML == tabuleiro[4].innerHTML == tabuleiro[2].innerHTML)
   if(venceu){
     fimDeJogo(`O jogador com '${jogadorAtual}' venceu!!!
     continuar jogando? [s/n]`)
