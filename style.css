@@ -1,0 +1,45 @@
+body{
+  --grey: hsl(240, 9%, 89%);
+  --black: hsl(240, 6%, 13%);
+  background: rgb(107,107,241);
+  font: normal 15pt Arial;
+}
+
+header{
+  color: var(--grey);
+  text-align: center;
+}
+
+section{
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px var(--black);
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+button{
+  font-size:xx-large;
+  color: transparent;
+  border-radius: 0;
+  width: 166px;
+  height: 166px;
+}
+
+footer{
+  text-align: center;
+  font-style: italic;
+}
+
+#linkGit{
+color: var(--grey);
+    text-decoration: none;
+    margin-top: 0.55rem;
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+}
